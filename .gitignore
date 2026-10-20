@@ -1,0 +1,36 @@
+# ===== أسرار (لا ترفعها أبداً) =====
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+key.properties
+**/google-services.json
+**/GoogleService-Info.plist
+**/*firebase-adminsdk*.json
+*.sql
+
+# ===== Flutter =====
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.idea/
+**/*.iml
+**/android/.gradle/
+**/android/local.properties
+
+# ===== Laravel =====
+**/vendor/
+**/node_modules/
+**/storage/logs/
+**/storage/framework/cache/
+**/storage/framework/sessions/
+**/storage/framework/views/
+**/storage/*.key
+**/public/storage
+**/public/hot
+
+# ===== عام =====
+.vscode/
+.DS_Store

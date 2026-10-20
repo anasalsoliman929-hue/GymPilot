@@ -1,0 +1,36 @@
+name: gympilot_trainer
+description: GymPilot - Trainer App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  get: ^4.6.6
+  get_storage: ^2.1.1
+  dio: ^5.4.3
+  flutter_animate: ^4.5.0
+  shimmer: ^3.0.0
+  fl_chart: ^0.68.0
+  iconsax: ^0.0.8
+  intl: 0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/app_icon.png"
